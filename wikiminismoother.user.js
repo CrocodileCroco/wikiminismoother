@@ -14,5 +14,5 @@ $( "a.addthis_button" ).replaceWith( '<a href="https://fr.wikimini.org/wiki/Sp%C
 var certifbach = $("body").html().replace(/Z">BachirZ/g,'Z">BachirZ <img src="http://www.famfamfam.com/lab/icons/silk/icons/accept.png">');
 $("body").html(certifbach);
 
-var certjuli = $("body").html().replace(/4">Julie54/g,'Z">Julie54 <img src="http://www.famfamfam.com/lab/icons/silk/icons/accept.png">');
+var certjuli = $("body").html().replace(/4">Julie54/g,'4">Julie54 <img src="http://www.famfamfam.com/lab/icons/silk/icons/accept.png">');
 $("body").html(certjuli);
