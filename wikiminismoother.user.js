@@ -16,3 +16,11 @@ $("body").html(certifbach);
 
 var certjuli = $("body").html().replace(/4">Julie54/g,'4">Julie54 <img src="http://www.famfamfam.com/lab/icons/silk/icons/accept.png">');
 $("body").html(certjuli);
+
+$( '<a class="twitter-timeline" data-width="220" data-height="500" href="https://twitter.com/WikiminiFR?ref_src=twsrc%5Etfw">Tweets by WikiminiFR</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> ' ).insertAfter( ".tool-box" );
+
+var urlozz      = window.location.href;
+
+if ( urlozz == "https://fr.wikimini.org/wiki/Utilisateur:BachirZ") {
+    alert("Ce profil est certifié par WikiMini Smoother")
+}
