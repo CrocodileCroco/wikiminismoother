@@ -24,3 +24,9 @@ var urlozz      = window.location.href;
 if ( urlozz == "https://fr.wikimini.org/wiki/Utilisateur:BachirZ") {
     alert("Ce profil est certifié par WikiMini Smoother")
 }
+
+
+
+if ( urlozz == "https://fr.wikimini.org/wiki/Discussion_utilisateur:BachirZ/SmoothCertification") {
+    $( "div.lqt-talkpage-header" ).replaceWith( '<div class="lqt-talkpage-header"><strong class="lqt_start_discussion"><a href="/w/index.php?title=Discussion_utilisateur:BachirZ/SmoothCertification&amp;lqt_method=talkpage_new_thread" title="Discussion utilisateur:BachirZ/SmoothCertification" lqt_talkpage="Discussion utilisateur:BachirZ/SmoothCertification">Demander Certification</a></strong><div class="lqt_view_options"><form action="/w/index.php?title=Discussion_utilisateur:BachirZ/SmoothCertification&amp;lqt_method=talkpage_sort_order" method="get" name="lqt_sort"><label for="lqt_sort_select">Tri :</label> <select name="lqt_order" id="lqt_sort_select" class="lqt_sort_select"><option value="nc" selected="">en commençant par les derniers modifiés</option><option value="nt">en commençant par les fils de discussion les plus récents</option><option value="ot">en commençant par les fils de discussion les plus anciens</option></select><input class="lqt_go_sort" value="Trier" type="submit"><input value="Discussion utilisateur:BachirZ/SmoothCertification" name="title" type="hidden"></form></div></div>' );
+}
